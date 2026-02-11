@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kean Kad - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar fixed-top mt-4">
+        <div class="container justify-content-center">
+            <div class="nav-pill-container d-flex gap-4 px-5 py-2 rounded-pill shadow">
+                <a href="#home" class="nav-link text-white active">Home</a>
+                <a href="#work" class="nav-link text-white">My Work</a>
+                <a href="#skills" class="nav-link text-white">Skills</a>
+                <a href="#chat" class="nav-link text-white">Chat</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section d-flex align-items-end justify-content-center text-center position-relative pb-5">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="video/MAIN - render me_1.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+        <div class="grid-overlay"></div>
+        
+        <div class="container position-relative hero-content">
+            <p class="text-uppercase ls-2 mb-0 text-dark small">Welcome</p>
+            <h1 class="display-3 fw-bold text-red mb-2">REAN KAD</h1>
+            <div class="badge bg-dark text-white px-4 py-2 rounded-pill fw-light">Interactive Design</div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-dark-red py-5 text-white">
+        <div class="container py-5">
+            <div class="text-center mb-5 animate-fade-up">
+                <p class="text-danger text-uppercase ls-2 small mb-2">Professional Background</p>
+                <h2 class="fw-bold display-5">Work Experience</h2>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Left Stats Card -->
+                <div class="col-lg-4 animate-fade-left">
+                    <div class="stats-card h-100">
+                        <div class="stats-number-wrapper">
+                            <span class="stats-number">01</span>
+                            <div class="stats-label">Year of<br>Experience</div>
+                        </div>
+                        <div class="satisfaction-badge">
+                            <div class="satisfaction-icon">
+                                <i class="bi bi-heart-fill text-danger"></i>
+                            </div>
+                            <div class="satisfaction-content">
+                                <span class="satisfaction-percent">100%</span>
+                                <span class="satisfaction-text">Client Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Skills Card -->
+                <div class="col-lg-8 animate-fade-right">
+                    <div class="skills-card h-100">
+                        <div class="skills-header">
+                            <h4 class="fw-bold mb-2">My Advantage</h4>
+                            <p class="text-white-50 small mb-4">
+                                Comprehensive skill set in design and development tools to bring creative visions to life.
+                            </p>
+                        </div>
+                        
+                        <div class="skills-grid">
+                            <div class="skill-item animate-scale" style="--delay: 0.1s">
+                                <div class="skill-circle" data-percent="70">
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                                <span class="skill-name">Figma</span>
+                            </div>
+                            <div class="skill-item animate-scale" style="--delay: 0.2s">
+                                <div class="skill-circle" data-percent="75">
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <span class="skill-name">Photoshop</span>
+                            </div>
+                            <div class="skill-item animate-scale" style="--delay: 0.3s">
+                                <div class="skill-circle" data-percent="45">
+                                    <span class="skill-percent">45%</span>
+                                </div>
+                                <span class="skill-name">Illustrator</span>
+                            </div>
+                            <div class="skill-item animate-scale" style="--delay: 0.4s">
+                                <div class="skill-circle" data-percent="76">
+                                    <span class="skill-percent">76%</span>
+                                </div>
+                                <span class="skill-name">C++</span>
+                            </div>
+                            <div class="skill-item animate-scale" style="--delay: 0.5s">
+                                <div class="skill-circle" data-percent="45">
+                                    <span class="skill-percent">45%</span>
+                                </div>
+                                <span class="skill-name">DevOps</span>
+                            </div>
+                            <div class="skill-item animate-scale" style="--delay: 0.6s">
+                                <div class="skill-circle" data-percent="45">
+                                    <span class="skill-percent">45%</span>
+                                </div>
+                                <span class="skill-name">After Effect</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-black py-5 text-white">
+        <div class="container py-5">
+            <div class="text-center mb-5 animate-fade-up">
+                <p class="text-danger text-uppercase ls-2 small mb-2">What I Offer</p>
+                <h2 class="fw-bold display-5">Services</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 animate-scale" style="--delay: 0.1s">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="bi bi-layers"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Photoshop</h5>
+                        <p class="small text-white-50">Professional photo retouching, poster design, and creative image manipulation.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 animate-scale" style="--delay: 0.2s">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="bi bi-vector-pen"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Illustrator</h5>
+                        <p class="small text-white-50">Vector illustration, logo design, and scalable graphic artwork.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 animate-scale" style="--delay: 0.3s">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="bi bi-stars"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">After Effect</h5>
+                        <p class="small text-white-50">Motion graphics, visual effects, and dynamic video animations.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 animate-scale" style="--delay: 0.4s">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="bi bi-camera-reels"></i>
+                        </div>
+                        <h5 class="fw-bold mb-2">Premiere Pro</h5>
+                        <p class="small text-white-50">Professional video editing, color grading, and cinematic production.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <section id="work" class="section-dark-red py-5 text-white">
+        <div class="container py-5">
+            <div class="text-center mb-5 animate-fade-up">
+                <p class="text-danger text-uppercase ls-2 small mb-2">Portfolio</p>
+                <h2 class="fw-bold display-5">My Work</h2>
+            </div>
+            
+         
+            <div class="work-filter animate-fade-up">
+                <button class="filter-btn active">All</button>         
+                <button class="filter-btn" data-filter="Photoshop">Photoshop</button>          
+                <button class="filter-btn">Illustrator</button>        
+                <button class="filter-btn">After Effect</button>      
+                <button class="filter-btn">Premiere Pro</button>        
+            </div>
+
+            <!-- PHOTOSHOP SUBMENU - Shows when Photoshop is clicked -->
+            <div id="photoshop-submenu" class="submenu-filter" style="display: none;">
+                <div class="submenu-container">
+                    <a href="#" class="submenu-link active" data-ps-filter="all">All Photoshop</a>
+                    <a href="#" class="submenu-link" data-ps-filter="retouch">Buddha Posters</a>
+                    <a href="#" class="submenu-link" data-ps-filter="manipulation">King Posters</a>
+                    <a href="#" class="submenu-link" data-ps-filter="design">Drink Posters</a>
+                    <a href="#" class="submenu-link" data-ps-filter="color">Independent Posters</a>
+                    <a href="#" class="submenu-link" data-ps-filter="composite">Pchum Ben Posters</a>
+                </div>
+            </div>
+
+
+           
+            <div class="work-grid">
+                <!-- Buddha Posters (Photoshop) -->
+                <div class="work-item animate-scale" data-ps-category="retouch" style="--delay: 0.1s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Buddha Posters/Meak bochea2026.jpg')">
+                        <img src="Photoshop/Buddha Posters/Meak bochea2026.jpg" alt="Meak Bochea 2026">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Meak Bochea 2026</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="retouch" style="--delay: 0.12s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Buddha Posters/buddha meak.jpg')">
+                        <img src="Photoshop/Buddha Posters/buddha meak.jpg" alt="Buddha Meak">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Buddha Meak</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="retouch" style="--delay: 0.14s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Buddha Posters/meak bochea 2026.jpg')">
+                        <img src="Photoshop/Buddha Posters/meak bochea 2026.jpg" alt="Meak Bochea 2026">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Meak Bochea 2026</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="retouch" style="--delay: 0.16s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Buddha Posters/ចូលវស្សា២០២៥.jpg')">
+                        <img src="Photoshop/Buddha Posters/ចូលវស្សា២០២៥.jpg" alt="ចូលវស្សា២០២៥">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">ចូលវស្សា២០២៥</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="retouch" style="--delay: 0.18s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Buddha Posters/ចេញវស្សា.jpg')">
+                        <img src="Photoshop/Buddha Posters/ចេញវស្សា.jpg" alt="ចេញវស្សា">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">ចេញវស្សា</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="retouch" style="--delay: 0.2s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Buddha Posters/មាឃ.jpg')">
+                        <img src="Photoshop/Buddha Posters/មាឃ.jpg" alt="មាឃ">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">មាឃ</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="retouch" style="--delay: 0.22s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Buddha Posters/មាឃបូជា.jpg')">
+                        <img src="Photoshop/Buddha Posters/មាឃបូជា.jpg" alt="មាឃបូជា">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">មាឃបូជា</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="retouch" style="--delay: 0.24s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Buddha Posters/វិសាខបយជា​២០២៥.jpg')">
+                        <img src="Photoshop/Buddha Posters/វិសាខបយជា​២០២៥.jpg" alt="វិសាខបយជា​២០២៥">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">វិសាខបយជា​២០២៥</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="retouch" style="--delay: 0.26s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Buddha Posters/វិសាខបូជា​២០២៥​2.jpg')">
+                        <img src="Photoshop/Buddha Posters/វិសាខបូជា​២០២៥​2.jpg" alt="វិសាខបូជា​២០២៥​2">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">វិសាខបូជា​២០២៥</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="retouch" style="--delay: 0.28s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Buddha Posters/វិសាខបូជា​៣.jpg')">
+                        <img src="Photoshop/Buddha Posters/វិសាខបូជា​៣.jpg" alt="វិសាខបូជា​៣">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">វិសាខបូជា​៣</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- King Posters (Photoshop) -->
+                <div class="work-item animate-scale" data-ps-category="manipulation" style="--delay: 0.1s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/king posters/KingCoronationday2025.jpg')">
+                        <img src="Photoshop/king posters/KingCoronationday2025.jpg" alt="King Coronation Day 2025">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">King Coronation Day 2025</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="manipulation" style="--delay: 0.12s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/king posters/king cremoney.png')">
+                        <img src="Photoshop/king posters/king cremoney.png" alt="King Ceremony">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">King Ceremony</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="manipulation" style="--delay: 0.14s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/king posters/king khmer poster 2025.jpg')">
+                        <img src="Photoshop/king posters/king khmer poster 2025.jpg" alt="King Khmer Poster 2025">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">King Khmer Poster 2025</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="manipulation" style="--delay: 0.16s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/king posters/king poster.jpg')">
+                        <img src="Photoshop/king posters/king poster.jpg" alt="King Poster">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">King Poster</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="manipulation" style="--delay: 0.18s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/king posters/king2025.jpg')">
+                        <img src="Photoshop/king posters/king2025.jpg" alt="King 2025">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">King 2025</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="manipulation" style="--delay: 0.2s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/king posters/kingCoration2025.jpg')">
+                        <img src="Photoshop/king posters/kingCoration2025.jpg" alt="King Coration 2025">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">King Coration 2025</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="manipulation" style="--delay: 0.22s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/king posters/queen mother.jpg')">
+                        <img src="Photoshop/king posters/queen mother.jpg" alt="Queen Mother">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Queen Mother</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="manipulation" style="--delay: 0.24s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/king posters/ចម្រើនព្រជន្ម២.jpg')">
+                        <img src="Photoshop/king posters/ចម្រើនព្រជន្ម២.jpg" alt="ចម្រើនព្រជន្ម២">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">ចម្រើនព្រជន្ម២</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="manipulation" style="--delay: 0.26s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/king posters/នរោត្តម មុនិនាថ សីហនុ.jpg')">
+                        <img src="Photoshop/king posters/នរោត្តម មុនិនាថ សីហនុ.jpg" alt="នរោត្តម មុនិនាថ សីហនុ">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">នរោត្តម មុនិនាថ សីហនុ</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="manipulation" style="--delay: 0.28s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/king posters/២០២៥.jpg')">
+                        <img src="Photoshop/king posters/២០២៥.jpg" alt="២០២៥">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">២០២៥</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drink Posters (Photoshop) -->
+                <div class="work-item animate-scale" data-ps-category="design" style="--delay: 0.1s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Drink Posters/drik poster.jpg')">
+                        <img src="Photoshop/Drink Posters/drik poster.jpg" alt="Drink Poster">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Drink Poster</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="design" style="--delay: 0.12s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Drink Posters/drink design.jpg')">
+                        <img src="Photoshop/Drink Posters/drink design.jpg" alt="Drink Design">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Drink Design</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="design" style="--delay: 0.14s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Drink Posters/drink mae.jpg')">
+                        <img src="Photoshop/Drink Posters/drink mae.jpg" alt="Drink Mae">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Drink Mae</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="design" style="--delay: 0.16s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Drink Posters/drink posterTeaching.jpg')">
+                        <img src="Photoshop/Drink Posters/drink posterTeaching.jpg" alt="Drink Poster Teaching">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Drink Poster Teaching</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="design" style="--delay: 0.18s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Drink Posters/drink2.jpg')">
+                        <img src="Photoshop/Drink Posters/drink2.jpg" alt="Drink 2">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Drink 2</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="design" style="--delay: 0.2s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Drink Posters/heinkenDrinkPoster.jpg')">
+                        <img src="Photoshop/Drink Posters/heinkenDrinkPoster.jpg" alt="Heineken Drink Poster">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Heineken Drink Poster</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="design" style="--delay: 0.22s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Drink Posters/matcha late.jpg')">
+                        <img src="Photoshop/Drink Posters/matcha late.jpg" alt="Matcha Latte">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Matcha Latte</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Independent Posters (Photoshop) -->
+                <div class="work-item animate-scale" data-ps-category="color" style="--delay: 0.1s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Independent Posters/7Meakara.jpg')">
+                        <img src="Photoshop/Independent Posters/7Meakara.jpg" alt="7 Meakara">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">7 Meakara</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="color" style="--delay: 0.12s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Independent Posters/independenceDay2025.jpg')">
+                        <img src="Photoshop/Independent Posters/independenceDay2025.jpg" alt="Independence Day 2025">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Independence Day 2025</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="color" style="--delay: 0.14s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Independent Posters/peace day.jpg')">
+                        <img src="Photoshop/Independent Posters/peace day.jpg" alt="Peace Day">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Peace Day</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="color" style="--delay: 0.16s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Independent Posters/vimean.jpg')">
+                        <img src="Photoshop/Independent Posters/vimean.jpg" alt="Vimean">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Vimean</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="color" style="--delay: 0.18s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Independent Posters/win2026.jpg')">
+                        <img src="Photoshop/Independent Posters/win2026.jpg" alt="Win 2026">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Win 2026</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pchum Ben Posters (Photoshop) -->
+                <div class="work-item animate-scale" data-ps-category="composite" style="--delay: 0.1s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Pchum Ben Posters/Khmer New Year.jpg')">
+                        <img src="Photoshop/Pchum Ben Posters/Khmer New Year.jpg" alt="Khmer New Year">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Khmer New Year</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="composite" style="--delay: 0.12s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Pchum Ben Posters/Phchum Ben Day 2026.jpg')">
+                        <img src="Photoshop/Pchum Ben Posters/Phchum Ben Day 2026.jpg" alt="Phchum Ben Day 2026">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Phchum Ben Day 2026</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="composite" style="--delay: 0.14s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Pchum Ben Posters/khmer nnew.jpg')">
+                        <img src="Photoshop/Pchum Ben Posters/khmer nnew.jpg" alt="Khmer New">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">Khmer New</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" data-ps-category="composite" style="--delay: 0.16s">
+                    <div class="work-image" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage('Photoshop/Pchum Ben Posters/ភ្ជុំបិណ្ឌបង្រៀន.jpg')">
+                        <img src="Photoshop/Pchum Ben Posters/ភ្ជុំបិណ្ឌបង្រៀន.jpg" alt="ភ្ជុំបិណ្ឌបង្រៀន">
+                        <div class="work-overlay">
+                            <span class="work-category">Photoshop</span>
+                            <h5 class="work-title">ភ្ជុំបិណ្ឌបង្រៀន</h5>
+                            <span class="work-link"><i class="bi bi-arrow-up-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- After Effect -->
+                <div class="work-item animate-scale" style="--delay: 0.3s">
+                    <div class="work-image video-item" data-bs-toggle="modal" data-bs-target="#videoModal" onclick="showVideo('video after/Done video intro.mp4')">
+                        <video src="video after/Done video intro.mp4" muted preload="metadata" style="width:100%; height:100%; object-fit:cover;"></video>
+                        <div class="work-overlay">
+                            <span class="work-category">After Effect</span>
+                            <h5 class="work-title">Video Intro</h5>
+                            <span class="work-link"><i class="bi bi-play-fill"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item animate-scale" style="--delay: 0.35s">
+                    <div class="work-image video-item" data-bs-toggle="modal" data-bs-target="#videoModal" onclick="showVideo('video after/Render_4.mp4')">
+                        <video src="video after/Render_4.mp4" muted preload="metadata" style="width:100%; height:100%; object-fit:cover;"></video>
+                        <div class="work-overlay">
+                            <span class="work-category">After Effect</span>
+                            <h5 class="work-title">Render 4</h5>
+                            <span class="work-link"><i class="bi bi-play-fill"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <footer class="bg-black text-white-50 py-5">
+        <div class="container" id="chat">
+            <div class="row gy-4">
+                <div class="col-md-3 border-end border-secondary">
+                    <a href="https://www.facebook.com/share/1Aw1VaFCNL/?mibextid=wwXIfr" class="text-white d-flex justify-content-between text-decoration-none">
+                        Facebook <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-md-3 border-end border-secondary">
+                    <a href="https://youtube.com/channel/UC8ewtisiPPRNqTWg0FJTR4g?si=qZ4unovb6EddO311" class="text-white d-flex justify-content-between text-decoration-none">
+                        YouTube <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://t.me/ReanKad" class="text-white d-flex justify-content-between text-decoration-none">
+                        Telegram <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                 <div class="col-md-3">
+                    <a href="https://www.tiktok.com/@rean_kad" class="text-white d-flex justify-content-between text-decoration-none">
+                        Tik Tok <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content bg-black">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center p-0">
+                    <img id="modalImage" src="" class="img-fluid" style="max-height: 95vh; max-width: 100%; object-fit: contain;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content bg-black">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" onclick="stopVideo()"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center p-0">
+                    <video id="modalVideo" controls class="img-fluid" style="max-height: 90vh;">
+                        <source src="" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+</html>
